@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="reset.css" rel="stylesheet">
+    <link href="productPage.css" rel="stylesheet">
+    <script src='productPageScript.js' defer></script>
+    <script src="https://kit.fontawesome.com/5ca167f7c2.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Oswald&display=swap" rel="stylesheet">
+    <title>e-Shop</title>
+</head>
+
+<body>
+  
+    <div class="main-container">
+      <header class="header-features">
+        <p><img src="../resources\Men's wear_files\clock.png" width='25px' height='20px' alt="clock icon">&nbsp;Free and Fast Delivery</p>
+        <p><img src="../resources\Men's wear_files\cart.png" width='20px' height='20px' alt="shopping cart icon">&nbsp;Free shipping On all orders</p>
+        <p><img src="../resources\Men's wear_files\inbox1.png" width='20px' height='20px' alt="email icon">&nbsp;info@example.com</p>
+      </header>
+      <section class="search-area">
+        <div>
+          <img class='logo' src="../resources/Men's wear_files/logo3.jpg" width='200px' height="100px" alt="Smart Shop Logo">
+        </div>
+        <form class="search-form">
+            <div class="form-control">
+                <input class="search-bar-input" type="text" placeholder="Search"/>
+               <select>
+                 <option>All Categories</option>
+                 <option>Shirts</option>
+                 <option>T-Shirts</option>
+                 <option>Watches</option>
+                 <option>Shoes</option>
+                </select>
+                <button class="search-btn"><img src="../resources/images/search.png" alt=""></button>
+            </div>
+        </form>
+        <div class="social-media-icons-container">
+          <ul class="social-media-icons-contact">
+              <li><a hr  ef="*"><img src="../resources\images\img-sp.png" alt=""></a></li>
+          </ul>
+       </div>
+      </section>
+      <nav class="navbar" >
+        <ul id='menu' style="position:relative;" class="menu">
+            <li><a href="index.html">HOME</a></li>
+            <li id='menuOpen'><a href="MensWearPage.html">MEN'S WEAR &nbsp;<div class="caret"></div></a>
+              <div id='pop-up' class="pop-up hidden">
+                <a id="redirect-menswear" class='hidden' href="MensWearPage.html"></a>
+                <div>
+                  <img src="../resources\images\woo1.jpg" height="300px" width="350px" alt="men's menu photo">
+                </div>
+                <div>
+                  <ul class="pop-up-left-list">
+                    <li>Clothing</li>
+                    <li>Wallets</li>
+                    <li>Footwear</li>
+                    <li>Watches</li>
+                    <li>Accessories</li>
+                    <li>Bags</li>
+                    <li>Caps & Hats</li>
+                  </ul>
+                </div>
+                <div>
+                  <ul class="pop-up-right-list">
+                    <li>Jewellry</li>
+                    <li>Sunglasses</li>
+                    <li>Perfumes</li>
+                    <li>Beauty</li>
+                    <li>Shirts</li>
+                    <li>Jackets</li>
+                    <li>Swimwear</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li><a href="MensWearPage.html">WOMEN'S WEAR</a></li>
+            <li><a href="*">ELECTRONICS</a></li>
+            <li><a href="*">SHORT CODES</a></li>
+            <li><a href="*">CONTACT</a></li>
+            <li>
+                <div class="cart">
+                    <a href="*"><i class="fa-solid fa-cart-plus"></i><p> &nbsp; $0.00 (0 items)</p>
+                        <p>Empty Cart</p>
+                    </a>
+                </div>
+            </li>
+        </ul>
+        
+      </nav>
+      <div class="shop-cover">
+      <img src="../resources/Men's wear_files/ba2.jpg" height='100%' width='100%' alt="Clothing store photo">
+      <p>SINGLE</p>
+      </div>
+
+      <!-- ****************************************************** -->
+<!-- ../resources\images\d4.jpg -->
+        <div class="product-showcase">
+          <div class="product-image">
+            <img data-mainImage src="../resources/images/loading.jpg" height='550px' width="550px" alt="Sport Shoes">
+          </div>
+          <div>
+            <ul class="product-icons">
+              <li><img data-icon1 src="../resources/images/loading.jpg" height='130px' width='130px' alt="Sport Shoes"></li>
+              <li><img data-icon2 src="../resources/images/loading.jpg" height='130px' width='130px' alt="Sport Shoes"></li>
+              <li><img data-icon3 src="../resources/images/loading.jpg" height='130px' width='130px' alt="Sport Shoes"></li>
+              <li><img data-icon4 src="../resources/images/loading.jpg" height='130px' width='130px' alt="Sport Shoes"></li>
+              <!-- ../resources\images\d1.jpg
+../resources\images\d2.jpg
+../resources\images\d3.jpg
+../resources\images\d4.jpg -->
+            </ul>
+          </div>
+        </div>
+        <div class="price-name-rating">
+          <h2 data-name>Loading . . .</h2>
+          <div class="item-prices">
+            <p id='price' class="price" data-price>. . . </p>
+            <p id='oldPrice' data-oldPrice></p>
+        </div>
+          <div class="stars">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+          </div>
+        </div>
+        <div class="pincode-check">
+          <p>Check delivery, payment options and charges at your location</p>
+          <form>
+            <input type="text" placeholder="Enter pincode" />
+            <button type="submit">Check</button>
+          </form>
+          <label for="quality">Quality:</label>
+          <select id="quality">
+            <option>5 Qty</option>
+            <option>4 Qty</option>
+            <option>3 Qty</option>
+            <option>2 Qty</option>
+            <option>1 Qty</option>
+          </select>
+        </div>
+        <div class="options">
+          <p>Types :</p>
+          <form>
+            <div class="options-form-wrapper">
+            <div>
+              <input type="radio" name="option" id="option">
+              <label>Casual Shoes</label>
+           </div>
+           <div>
+            <input type="radio" name="option" id="option">
+            <label>Sport Shoes</label>
+         </div>
+         <div>
+          <input type="radio" name="option" id="option">
+          <label>Formal Shoes</label>
+       </div>
+      </div>
+       <button type="submit">Add to cart</button>
+          </form>
+        </div>
+        <div class="description">
+          <div>
+            <button>Description</button>
+            <button>Reviews(1)</button>
+            <button class="caret-btn">Information <p class="caret-down"></p></button>
+          </div>
+          <div>
+            <h2>PRODUCT BRIEF DESCRIPTION</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis et iusto repellendus suscipit architecto quam itaque nisi? Deserunt tenetur aliquam laborum quos consequatur vero accusantium fugit, quasi soluta adipisci aspernatur odit nisi perspiciatis blanditiis quo sequi? Quae minima perspiciatis iste eos facilis at sapiente et totam hic harum doloremque quos explicabo nemo blanditiis, dolores modi ab, quidem deserunt voluptatem autem porro id amet? Odit, tempora harum! Distinctio, minus nam reiciendis explicabo reprehenderit nobis nesciunt exercitationem vitae architecto cumque necessitatibus cum quaerat asperiores, expedita accusantium. Ab praesentium labore totam dolorem debitis quod est sapiente qui, dignissimos incidunt, quam earum laboriosam alias sequi quasi laudantium expedita non, culpa officia quisquam nisi fuga aliquid eveniet natus. Provident impedit quo deserunt voluptatem nam sed? Distinctio, quas velit magni assumenda recusandae aut itaque deleniti id ex aliquam quod! Sint quod saepe omnis doloremque fugit magni cum aliquid facere at temporibus. Eveniet totam repellendus tempore nesciunt!</p>
+          </div>
+        </div>
+
+      <!-- ****************************************************** -->
+
+      <section class="shop-instructions">
+        <div class="shop-instructions-container">
+          <div>
+            <p>BUY YOUR PRODUCT</p>
+            <p>IN A SIMPLE WAY</p>
+          </div>
+            <ul>
+              <li>
+                <p><i class="fa-solid fa-user"></i></p>
+                <h2>LOGIN TO YOUR ACCOUNT</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, esse.</p>
+              </li>
+              <li>
+                <p><i class="fa-solid fa-circle-check"></i></p>
+                <h2>SELECT YOUR ITEM</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, aperiam.</p>
+              </li>
+              <li>
+                <p><i class="fa-solid fa-credit-card"></i></p>
+                <h2>MAKE PAYMENT</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, nisi.</p>
+              </li>
+            </ul>
+        </div>
+      </section>
+      <footer class="page-footer">
+        <div class="page-footer-container">
+          <div class="logo-newsletter-email">
+            <ul>
+              <li>
+                <img src="../resources/Men's wear_files/logo3.jpg" width='200px' height="100%" alt="smart shop logo">
+              </li>
+              <li>
+                <h2>SIGN UP FOR THE NEWSLETTER!</h2>
+              </li>
+              <li>
+                <form>
+                  <input id="newsletter-email" placeholder="Email" type="email"><button type="submit">SUBMIT</button> 
+              </form>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-content">
+            <div class="footer-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum illum quo, minus officia ratione nulla suscipit reiciendis exercitationem?
+              Iure esse aspernatur sapiente aperiam unde incidunt, voluptatem vel sit porro facilis ratione eveniet fuga labore odit fugit accusantium voluptatum rerum exercitationem libero consequuntur! 
+              Maxime quia cumque necessitatibus nobis repudiandae fuga non.</div>
+              <div class="footer-information">
+                <h2>Information</h2>
+                <ul>
+                  <li>Home</li>
+                  <li>Mens's Wear </li>
+                  <li>Electornics</li>
+                  <li>Short Codes</li>
+                  <li>Contact</li>
+                </ul>
+              </div>
+              <div class="footer-store-information">
+                <h2>Store Information</h2>
+                <ul>
+                  <li>
+                    <p><i class="fa-sharp fa-solid fa-location-dot"></i> <span>Address: 1234k Avenue, 4th block, Newyork City</span></p>
+                    <p><i class="fa-solid fa-envelope"></i> <email>Email: info@example.com</email></p>
+                    <p><i class="fa-solid fa-phone"></i> <phone>Phone: +1234 567 567</phone></p>
+                  </li>
+                </ul>
+              </div>
+              <div class="flickr-posts">
+                <h2>Flickr Posts</h2>
+                <div>
+                  <img src="../resources\images\b15.jpg" alt="phone image">
+                  <img src="../resources\images\b16.jpg" alt="phone image">
+                  <img src="../resources\images\b17.jpg" alt="phone image">
+                  <img src="../resources\images\b18.jpg" alt="phone image">
+                  <img src="../resources\images\b15.jpg" alt="phone image">
+                  <img src="../resources\images\b16.jpg" alt="phone image">
+                  <img src="../resources\images\b17.jpg" alt="phone image">
+                  <img src="../resources\images\b18.jpg" alt="phone image">
+                  <img src="../resources\images\b15.jpg" alt="phone image">
+                </div>
+              </div>
+          </div>
+          <div class="copyright"><p>C 2016 Smart Shop. All Rights reserved | Design by W3layouts</p></div>
+      </div>
+      </footer>
+    </div>
+
+</body>
+</html>

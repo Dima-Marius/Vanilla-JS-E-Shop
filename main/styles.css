@@ -1,0 +1,884 @@
+:root {
+    --customOrange: rgb(253,163,14);
+}
+
+* {
+    font-family: Oswald
+}
+
+.header-features {
+    grid-area: header-features;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap:nowrap;
+
+}
+
+.header-features p {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/************** SEARCH AREA */
+
+.search-area {
+    grid-area: search-area;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    min-width:60rem;
+}
+
+/****************** search bar + categories + button  */
+
+.form-control {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-control * {
+    border: 1px solid var(--customOrange);
+    outline: none;
+}
+
+.form-control select {
+    height:33px;
+    border-right: none;
+    border-left: none;
+    padding:3px;
+}
+
+.search-bar-input {
+    height:33px;
+    border:solid 1px var(--customOrange);
+    width:30vw;
+    min-width:300px;
+}
+
+.search-bar-input::placeholder {
+    padding:0.6em;
+}
+
+.search-form {
+    min-width:500px;
+}
+
+.search-btn {
+    height:100%;
+    border: none;
+}
+
+.search-btn > img {
+    background-color: var(--customOrange);
+    border: none;
+    height:33px;
+}
+
+/*************** SOCIAL MEDIA ICONS */
+
+.social-media-icons-contact {
+    height:2rem;
+    list-style-type: none;
+}
+
+/************** SEARCH AREA END*/
+
+/*************** Navbar Starts  */
+
+.navbar {
+    grid-area: navbar;
+    background-color: rgb(0, 0, 0);
+}
+
+.navbar .menu {
+    height:100%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    display:flex;
+    height:100%;
+    flex-wrap:wrap;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 20px;
+}
+
+.menu .cart {
+    background-color: var(--customOrange);
+}
+
+.menu li {
+    height:100%;
+}
+
+
+.menu li:last-child {
+    height:100%;
+    width:10rem;
+    display:flex;
+}
+.menu li:hover:not(:last-child) {
+    border-bottom:solid 4px var(--customOrange);
+    margin-top: 4px;
+}
+
+.caret {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid #fff;
+    transition: 0.3s;
+}
+
+.pop-up { 
+    background-color: white; 
+    width: 50rem; 
+    height: 20rem;
+    z-index: 999;
+    position: absolute; 
+    top:90px; 
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pop-up-left-list {
+    display:grid;
+    gap:12px;
+}
+
+.pop-up-right-list {
+    display:grid;
+    gap:12px;
+}
+
+.pop-up ul li, .pop-up ul li a {
+    list-style-type: none;
+    border-bottom: none !important;
+    margin:0 !important;
+    padding:0 !important;
+}
+
+.pop-up > div > img {
+    margin: 10px;
+}
+
+
+/* ************************************** */
+
+.shop-cover {
+    grid-area: shop-cover;
+    height:100%;
+    width:100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.arrivals-offer-title {
+    grid-area: arrivals-offer-title;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrivals-offer-title h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom:1.6rem;
+}
+
+.arrivals-offer-title, p {
+    font-size: 20px;
+}
+
+.arrivals-offer-title h2 span {
+    color:var(--customOrange)
+}
+
+    .wedding-offer {
+        grid-area: wedding-offer;
+        display:flex;
+        justify-content: flex-end;
+    }
+    
+    .wedding-offer > div {
+        height: 100%;
+        position: relative;
+    }
+
+    .wedding-details {
+        position: absolute;
+        top:26%;
+        left:15%;
+        display:flex;
+        flex-direction: column;
+        gap:2rem;
+        text-align: center;
+        align-items: center;
+    }
+    
+
+    .wedding-details button {
+        background-color: var(--customOrange);
+        color:white;
+        padding:0.5rem 1.4rem;
+        border: none;
+        outline: none;
+        font-size: 16px;
+        width: 130px;
+
+    }
+
+    .wedding-details p {
+        font-size: 30px;
+        font-weight: normal;
+    }
+
+    .wedding-details p span {
+        text-decoration:line-through;
+        margin-right: 13px;
+    }
+    .first-offer {
+        grid-area: first-offer;
+        display:flex;
+        justify-content: center;
+        gap:3rem;
+    }
+    
+    .first-offer p {
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    .first-offer-container {
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        height: 20rem;
+        width: 35rem;
+        border:solid 1px gray;
+        gap:50px
+    }
+
+    .first-offer button {
+        background-color: var(--customOrange);
+        color:white;
+        padding:0.5rem 1.4rem;
+        border: none;
+        outline: none;
+    }
+
+    .first-offer button:active {
+        position: relative;
+        top:1px;
+    }
+
+    .second-offer {
+        grid-area: second-offer;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .second-offer-container {
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        height: 20rem;
+        width: 35rem;
+        border:solid 1px gray;
+        gap:50px
+    }
+
+    .second-offer-container .details p {
+        font-weight: bold;
+        font-size:40px
+    }
+
+    .second-offer-container button {
+        font-weight:normal;
+        font-size:initial;
+        background-color: var(--customOrange);
+        color:white;
+        padding:0.5rem 1.4rem;
+        border: none;
+        outline: none;
+        
+    }
+    .spring-offer {
+        grid-area: spring-offer;
+    }
+
+    .spring-example {
+        position: relative;
+
+    }
+    .spring-offer > div:first-of-type {
+        height: 100%;
+        position: relative;
+    }
+
+    .spring-details {
+        position:absolute;
+        top:39%;
+        left:12%;
+        display:flex;
+        flex-direction: column;
+        gap:50px;
+        text-align: center;
+    }
+
+    .spring-details p {
+        color: white;
+        font-weight: bold;
+        font-size: 35px;
+    }
+
+
+.collection-offers {
+    grid-area: collection-offers;
+    grid-template-columns: 1fr 1fr 1fr;
+    display:grid;
+    grid-template-areas:
+    "wedding-offer first-offer spring-offer"
+    "wedding-offer second-offer spring-offer";
+}
+
+.dog {
+    background-color: red;
+}
+
+ .discount-offers .first-article,.discount-offers .discount-offer,
+ .discount-offers .third-article, .discount-offers .branded-offer,
+ .discount-offers .second-article {
+   display:flex;
+}
+
+.discount-offers {
+    grid-area: discount-offers;
+    display:grid;
+    place-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "first-article discount-offer third-article"
+    "branded-offer second-article third-article"
+}
+
+.discount-offers .first-article {
+    grid-area: first-article;
+    justify-content: flex-end;
+}
+
+
+
+
+.discount-offers .discount-offer {
+    grid-area: discount-offer;
+    display:flex;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.discount-offer > div p, .discount-offer > div span {
+    font-size: 2em;
+}
+
+.discount-offers .discount-offer > div {
+    width:220px;
+    font-weight: bold;
+    display:flex;
+    flex-direction: column;
+    margin-right: 60px;
+    
+}
+
+.discount-offers .discount-offer > div > span {
+    color: var(--customOrange);
+    font-size: 50px;
+}
+
+.discount-offers .third-article {
+    grid-area: third-article;
+    justify-content: flex-start;
+    align-items: center;
+}
+.discount-offers .branded-offer {
+    grid-area: branded-offer;
+    margin-left:200px;
+    justify-content: flex-start;
+    display:flex;
+    align-items: flex-end;
+    flex-direction: column;
+    font-size:30px
+}
+
+.branded-offer-wrapper {
+    width: 420px;
+}
+
+.discount-offers .branded-offer p {
+    font-size:1.4em;
+    margin-right:4rem;
+}
+
+.discount-offers .branded-offer h2 {
+    color:var(--customOrange);
+    margin-right:4rem;
+    font-size: 70px;
+}
+
+.discount-offers .second-article {
+    grid-area: second-article;
+    align-items: flex-start;
+    
+}
+
+.discount-offer > div {
+    font-size: 20px;
+    display:flex;
+    justify-content: center;
+    margin-left:50px;
+}
+
+.discount-offer > div > span {
+    font-size: 44px !important;
+}
+
+/* ************************* discount offers area ends */
+
+.categories-menu {
+    grid-area: categories-menu;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.categories-menu .categories {
+    display:flex;
+
+}
+
+
+
+.categories-menu .categories li {
+    list-style-type: none;
+}
+
+.categories-menu .categories li button {
+    background: transparent;
+    outline:none;
+    border:none;
+    border-bottom: 4px solid gray;
+    padding: 0px 45px 20px;
+}
+
+.categories {
+    display:flex;
+    font-weight: bold;
+    font-size:2em;
+    width:80rem;
+    justify-content: space-evenly;
+}
+.products-area {
+    grid-area: products-area;
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+#products-output {
+    width: 100rem;
+    display:grid;
+    justify-items:center;
+    row-gap:1.5rem;
+ /* grid-template-columns: repeat(4,330px)  */ 
+    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr))
+
+}
+
+/********************* SHOP INSTRUCTIONS AREA */
+
+.shop-instructions {
+    grid-area: shop-instructions;
+    position: relative;
+    display:grid;
+    place-items: center;
+}
+
+.shop-instructions {
+    background-image: url('../resources/images/coupons.jpg');
+    background-size: 2550px 680px;
+    background-repeat: no-repeat;
+}
+
+.shop-instructions-container {
+    display:flex;
+    justify-content: center;
+    gap: 5rem;
+    flex-direction: row;
+
+    
+}
+
+.shop-instructions-container > div:first-of-type {
+    color:var(--customOrange);
+    font-weight: bold;
+    display: grid;
+    place-content: center;
+
+}
+
+.shop-instructions-container > div:first-of-type > p {
+    font-size:2em;
+    text-align: center;
+}
+
+.shop-instructions-container ul {
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    display:inline-flex;
+    width: 90rem;
+}
+
+.shop-instructions-container ul li {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    color:whitesmoke;
+    gap:2rem;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.shop-instructions-container ul li h2 {
+    color:white;
+}
+
+.shop-instructions-container ul li p:not(:first-of-type) {
+    font-size: 1.2em;
+}
+
+.shop-instructions-container ul li p i {
+    color: whitesmoke;
+    background-color: var(--customOrange);
+    width:4rem;
+    height: 4rem;
+    display:grid;
+    font-size: 2rem;
+    place-content: center;
+    border-radius: 100%;
+}
+
+/******************** SHOP INSTRUCTIONS AREA ENDS */
+
+/******************** PAGE FOOTER AREA STARTS */
+.page-footer {
+    grid-area: page-footer;
+
+}
+
+.page-footer-container {
+    display:grid;
+    grid-template-rows:
+    [empty] 5rem
+    [logo-newsletter-email] 6rem
+    [footer-content] 21rem
+    [copyright] 8rem;
+
+    grid-template-areas: 
+    "."
+    "logo-newsletter-email"
+    "footer-content"
+    "copyright";
+}
+
+.logo-newsletter-email {
+
+    grid-area: logo-newsletter-email;
+    display:flex;
+    justify-content: center;
+}
+
+.logo-newsletter-email ul {
+    list-style-type: none;
+    display:flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo-newsletter-email ul li button {
+    background-color: var(--customOrange);
+    height: 3rem;
+    width: 5rem;
+    outline: none;
+    border: none;
+    color: white;
+    border: 1px solid black;
+    border-left: none;
+}
+
+.logo-newsletter-email ul li input:first-of-type {
+    border-right: none;
+    outline:none;
+    height: 3rem;
+    width: 18rem;
+    padding-left:0.5rem;
+}
+
+.logo-newsletter-email ul li input:first-of-type:focus::placeholder {
+    opacity: 0;
+    transition: 300ms;
+}
+
+.logo-newsletter-email ul li h2 {
+    font-size: 2.2em;
+}
+
+.footer-content {
+
+    grid-area: footer-content;
+    display:grid;
+    grid-template-columns: 2fr 1fr 2fr 2fr;
+    grid-template-areas: 
+    "footer-description footer-information footer-store-information flickr-posts";
+}
+
+.footer-content * {
+    list-style-type: none;
+}
+
+.footer-description {
+    grid-area: footer-description;
+    display:flex;
+    justify-content: flex-end;
+    padding-left: 20rem;
+    align-items: center;
+}
+
+.footer-information {
+    grid-area: footer-information;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.footer-information > h2 {
+    color: var(--customOrange);
+    padding-top:2rem;
+}
+
+.footer-information ul > li {
+    cursor: pointer;  
+}
+
+.footer-information ul > li:hover {
+    border-bottom:1px solid black;
+}
+
+.footer-store-information {
+    grid-area: footer-store-information;
+
+    display:grid;
+    place-content: start;
+    padding: 1.8rem 0 0 8rem;
+    gap: 2rem;
+    justify-items:center;
+}
+
+.footer-store-information > h2 {
+    color: var(--customOrange);
+}
+
+.flickr-posts {
+    grid-area: flickr-posts;
+    display:grid;
+    display:flex;
+    flex-direction: column;
+}
+
+.flickr-posts > div:first-of-type {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    width: 250px;
+
+}
+
+.flickr-posts > h2 {
+    padding-top: 1.8rem;
+    padding-bottom:1rem;
+    color:var(--customOrange)
+}
+
+/* xxxxxxxxx */ 
+.copyright {
+
+    grid-area: copyright;
+    text-align: center;
+    padding-top:1.4rem;
+}
+
+/******************** PAGE FOOTER AREA ENDS */
+
+.main-container {
+    max-width: 100%;
+    display:grid;
+    height:100vh;
+    width:100vw;
+    grid-template-rows:
+    [header] 4rem
+    [search] 8rem
+    [nav] 5.5rem
+    [shop-cover] 36rem
+    [arrival-offers] 12rem
+    [collection-offers] 42rem
+    [empty] 5rem
+    [discount-offers]51rem 
+    [empty] 5rem
+    [categories-menu] 10rem
+    [products-area] auto
+    [empty] 6rem
+    [shop-instructions] 42.5rem
+    [footer] 40rem;
+
+    grid-template-areas: 
+    "header-features"
+    "search-area"
+    "navbar"
+    "shop-cover"
+    "arrivals-offer-title"
+    "collection-offers"
+    "."
+    "discount-offers"
+    "."
+    "categories-menu"
+    "products-area"
+    "."
+    "shop-instructions"
+    "page-footer";
+
+}
+
+
+.product {
+    width: 290px;
+    height: 470px;
+    box-shadow: 0px 0px 15px #ececec;
+    border: solid 1px rgb(0, 0, 0);
+    position: relative;
+    display:grid;
+    place-content: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.product__image {
+    margin-top:30px
+}
+
+.product__detail {
+    height:30px;
+    width: max-content;
+    text-align: center;
+    background: #868686;
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    top:0;
+    right:0;
+}
+
+.product-details-container {
+    margin-top:20px;
+    text-align: center;
+}
+
+.product__name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fda30f;
+    position: relative;
+}
+
+.product__price {
+    font-weight: bold;
+    font-size: 23px;  
+}
+
+#product__old-price {
+    color: #a7a7a7;
+    text-decoration: line-through;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.product__btn-add-to-cart {
+    width: 105px;
+    height: 27px;
+    color: #fff5e5;
+    background-color: #fda30e;
+    border: 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+/* MODIFIERS */
+
+
+#redirect-menswear {
+    position:absolute;
+    width: 50rem;
+    height: 20rem;
+
+}
+
+.active {
+    border-bottom: 4px solid var(--customOrange) !important;
+}
+
+.menu-item-wrapper {
+    position: relative;
+}
+
+.hidden {
+    display:none !important;
+}
+
+.selected {
+    border-bottom: solid 4px var(--customOrange);
+    margin-top: 4px;
+}
+
+.view-product-btn {
+    border:none;
+    color:white;
+    background-color: var(--customOrange);
+    height: 27px;
+    width: 50px;
+}

@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="reset.css" rel="stylesheet">
+    <link href="menswearpage.css" rel="stylesheet">
+    <script src='menswearscript.js' defer></script>
+    <script src="https://kit.fontawesome.com/5ca167f7c2.js" crossorigin="anonymous"></script>
+    <title>e-Shop</title>
+</head>
+
+<body>
+  
+    <div class="main-container">
+      <header class="header-features">
+        <p><img src="../resources\Men's wear_files\clock.png" width='25px' height='20px' alt="clock icon">&nbsp;Free and Fast Delivery</p>
+        <p><img src="../resources\Men's wear_files\cart.png" width='20px' height='20px' alt="shopping cart icon">&nbsp;Free shipping On all orders</p>
+        <p><img src="../resources\Men's wear_files\inbox1.png" width='20px' height='20px' alt="email icon">&nbsp;info@example.com</p>
+      </header>
+      <section class="search-area">
+        <div>
+          <img class='logo' src="../resources/Men's wear_files/logo3.jpg" width='200px' height="100px" alt="Smart Shop Logo">
+        </div>
+        <form class="search-form">
+            <div class="form-control">
+                <input class="search-bar-input" type="text" placeholder="Search"/>
+               <select>
+                 <option>All Categories</option>
+                 <option>Shirts</option>
+                 <option>T-Shirts</option>
+                 <option>Watches</option>
+                 <option>Shoes</option>
+                </select>
+                <button class="search-btn"><img src="../resources/images/search.png" alt=""></button>
+            </div>
+        </form>
+        <div class="social-media-icons-container">
+          <ul class="social-media-icons-contact">
+              <li><a href="#"><img src="../resources\images\img-sp.png" alt=""></a></li>
+          </ul>
+       </div>
+      </section>
+      <nav class="navbar" >
+        <ul id='menu' style="position:relative;" class="menu">
+            <li><a href="index.html">HOME</a></li>
+            <li id='menuOpen' ><a href="#">MEN'S WEAR &nbsp;<div class="caret"></div></a>
+              <div id='pop-up' class="pop-up hidden">
+                <a id="redirect-menswear" class='hidden' href="MensWearPage.html"></a>
+                <div>
+                  <img src="../resources\images\woo1.jpg" height="300px" width="350px" alt="men's menu photo">
+                </div>
+                <div>
+                  <ul class="pop-up-left-list">
+                    <li>Clothing</li>
+                    <li>Wallets</li>
+                    <li>Footwear</li>
+                    <li>Watches</li>
+                    <li>Accessories</li>
+                    <li>Bags</li>
+                    <li>Caps & Hats</li>
+                  </ul>
+                </div>
+                <div>
+                  <ul class="pop-up-right-list">
+                    <li>Jewellry</li>
+                    <li>Sunglasses</li>
+                    <li>Perfumes</li>
+                    <li>Beauty</li>
+                    <li>Shirts</li>
+                    <li>Jackets</li>
+                    <li>Swimwear</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li><a href="#">WOMEN'S WEAR</a></li>
+            <li><a href="#">ELECTRONICS</a></li>
+            <li><a href="#">SHORT CODES</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <li>
+                <div class="cart">
+                    <a href="#"><i class="fa-solid fa-cart-plus"></i><p> &nbsp; $0.00 (0 items)</p>
+                        <p>Empty Cart</p>
+                    </a>
+                </div>
+            </li>
+        </ul>
+        
+      </nav>
+      <div class="shop-cover">
+<!--         <img src="../resources/Men's wear_files/ba2.jpg" height='100%' width='100%' alt="Clothing store photo"> -->
+       <p>MEN'S WEAR</p>
+        </div>
+
+      <!-- MIDDLE SECTION STARTS ********************************** -->
+
+      <div class="filter-by-price">
+        <h2>FILTER BY PRICE</h2>
+        <div name="price-filter" id="price-filter">
+          <span>&nbsp;</span>
+          <span></span>
+           <span>&nbsp;</span>
+           &nbsp;
+        </div>
+        <div class="price-range">$1000 - $7000</div>
+      </div>
+      <div class="product-compare">
+        <div>
+            <h2>PRODUCT COMPARE (0)</h2>
+        </div>
+        <div>
+            <form>
+              <label for="sort-by">Sort By</label>
+              <select id="sort-by">
+                  <option>Default</option>
+                  <option>Price</option>
+                  <option>Collection</option>
+              </select>
+              <label for="showing">Showing</label>
+              <select id="showing">
+                <option>7</option>
+                <option>6</option>
+                <option>5</option>
+              </select>
+            </form>
+        </div>
+      </div>
+      <div class="categories">
+        <div>
+            <h2>Categories</h2>
+        </div>
+        <div>
+            <ul> <!-- ::marker doesn't work with font-awesome tags -->
+                <li><i class="fa-solid fa-arrow-right"></i> &nbsp; Men's Wear</li>
+                <li><i class="fa-solid fa-arrow-right"></i> &nbsp; Ethinic Wear</li>
+                <li><i class="fa-solid fa-arrow-right"></i> &nbsp; Party Wear</li>
+                <li><i class="fa-solid fa-arrow-right"></i> &nbsp; Casual Wear</li>
+                <li><i class="fa-solid fa-arrow-right"></i> &nbsp; Best Collection</li>
+                <li><i class="fa-solid fa-arrow-right"></i> &nbsp; New Arrivals</li>
+                <li><i class="fa-solid fa-arrow-right"></i> &nbsp; Shirts</li>
+                <li><i class="fa-solid fa-arrow-right"></i> &nbsp; Shoes</li>
+                <li><i class="fa-solid fa-arrow-right"></i> &nbsp; Pants</li>
+                <li><i class="fa-solid fa-arrow-right"></i> &nbsp; Sunglasses</li>
+                <li><i class="fa-solid fa-arrow-right"></i> &nbsp; Best Offers</li>
+                <li><i class="fa-solid fa-arrow-right"></i> &nbsp; Summer Discount Sales</li>
+                <li><i class="fa-solid fa-arrow-right"></i> &nbsp; Exciting Offer</li>
+                <li><i class="fa-solid fa-arrow-right"></i> &nbsp; Flat Discounts</li>
+            </ul>
+        </div>
+      </div>
+      <div class="mens-collection">
+        <div>
+            <img src="../resources\images\men2.jpg" height='550px' alt="shoes">
+        </div>
+        <div>
+            <img src="../resources\images\men3.jpg" height='370x' alt="man with sunglasses">
+            <div>
+                <h2>Exclusive Men's Collection</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla cupiditate illo sit corrupti repellendus, sunt odio maxime eum ea cum earum saepe maiores, nisi sequi? Laboriosam ipsam praesentium at pariatur doloremque, debitis atque. Eius quae accusantium numquam, blanditiis similique dolore quos doloribus commodi nam rem? Obcaecati natus omnis dolorum facilis a explicabo eveniet iure itaque. Odit sed quia id qui.</p>
+            </div>
+        </div>
+      </div>
+      <div class="community-poll">
+        <div>
+            <h2>Community Poll</h2>
+        </div>
+        <form id="poll">
+            <div>
+                  <input type="radio" name="r1" id="r1">
+                  <label for="r1">More convenient for shipping and delivery</label>
+            </div>
+            <div>
+                <input type="radio" name="r1" id="r2">
+                <label for="r2">Lower Price</label>
+            </div>
+            <div>
+                <input type="radio" name="r1" id="r3">
+                <label for="r3">Track your item</label>
+            </div>
+            <div>
+                <input type="radio" name="r1" id="r4">
+                <label for="r4">Bigger Choice</label>
+            </div>
+            <div>
+                <input type="radio" name="r1" id="r5">
+                <label for="r5">More colors to choose</label>
+            </div>
+            <div>
+                <input type="radio" name="r1" id="r6">
+                <label for="r6">Secured Payment</label>
+            </div>
+            <div>
+                <input type="radio" name="r1" id="r7">
+                <label for="r7">Money Back guaranteed</label>
+            </div>
+            <div>
+                <input type="radio" name="r1" id="r8">
+                <label for="r8">Others</label>
+            </div>
+            <button type="submit">Send</button>
+        </form>
+      </div>
+      <div class="products-highlight">
+        <div class="products-highlight-output" data-highlightOutput></div>
+      </div>
+      <div class="products-area">
+        <div id="products-output" class="products-area-output"></div>
+      </div>
+      <div id="pages" class="pages">
+        <button id="page-btn-prev"><i class="fa-solid fa-chevron-left"></i></button>
+        <button class="page-select">1</button>
+        <button>2</button>
+        <button id="three-btn">3</button>
+        <button>4</button>
+        <button id="page-btn-next"><i class="fa-solid fa-chevron-right"></i></button>
+      </div>
+
+
+
+
+
+   
+     <!-- MIDDLE SECTION ENDS ************************************* -->
+
+
+
+      <section class="shop-instructions">
+        <div class="shop-instructions-container">
+          <div>
+            <p>BUY YOUR PRODUCT</p>
+            <p>IN A SIMPLE WAY</p>
+          </div>
+            <ul>
+              <li>
+                <p><i class="fa-solid fa-user"></i></p>
+                <h2>LOGIN TO YOUR ACCOUNT</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, esse.</p>
+              </li>
+              <li>
+                <p><i class="fa-solid fa-circle-check"></i></p>
+                <h2>SELECT YOUR ITEM</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, aperiam.</p>
+              </li>
+              <li>
+                <p><i class="fa-solid fa-credit-card"></i></p>
+                <h2>MAKE PAYMENT</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, nisi.</p>
+              </li>
+            </ul>
+        </div>
+      </section>
+      <footer class="page-footer">
+        <div class="page-footer-container">
+          <div class="logo-newsletter-email">
+            <ul>
+              <li>
+                <img src="../resources/Men's wear_files/logo3.jpg" width='200px' height="100%" alt="smart shop logo">
+              </li>
+              <li>
+                <h2>SIGN UP FOR THE NEWSLETTER!</h2>
+              </li>
+              <li>
+                <form>
+                  <input id="newsletter-email" placeholder="Email" type="email"><button type="submit">SUBMIT</button> 
+              </form>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-content">
+            <div class="footer-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum illum quo, minus officia ratione nulla suscipit reiciendis exercitationem?
+              Iure esse aspernatur sapiente aperiam unde incidunt, voluptatem vel sit porro facilis ratione eveniet fuga labore odit fugit accusantium voluptatum rerum exercitationem libero consequuntur! 
+              Maxime quia cumque necessitatibus nobis repudiandae fuga non.</div>
+              <div class="footer-information">
+                <h2>Information</h2>
+                <ul>
+                  <li>Home</li>
+                  <li>Mens's Wear </li>
+                  <li>Electornics</li>
+                  <li>Short Codes</li>
+                  <li>Contact</li>
+                </ul>
+              </div>
+              <div class="footer-store-information">
+                <h2>Store Information</h2>
+                <ul>
+                  <li>
+                    <p><i class="fa-sharp fa-solid fa-location-dot"></i> <span>Address: 1234k Avenue, 4th block, Newyork City</span></p>
+                    <p><i class="fa-solid fa-envelope"></i> <email>Email: info@example.com</email></p>
+                    <p><i class="fa-solid fa-phone"></i> <phone>Phone: +1234 567 567</phone></p>
+                  </li>
+                </ul>
+              </div>
+              <div class="flickr-posts">
+                <h2>Flickr Posts</h2>
+                <div>
+                  <img src="../resources\images\b15.jpg" alt="phone image">
+                  <img src="../resources\images\b16.jpg" alt="phone image">
+                  <img src="../resources\images\b17.jpg" alt="phone image">
+                  <img src="../resources\images\b18.jpg" alt="phone image">
+                  <img src="../resources\images\b15.jpg" alt="phone image">
+                  <img src="../resources\images\b16.jpg" alt="phone image">
+                  <img src="../resources\images\b17.jpg" alt="phone image">
+                  <img src="../resources\images\b18.jpg" alt="phone image">
+                  <img src="../resources\images\b15.jpg" alt="phone image">
+                </div>
+              </div>
+          </div>
+          <div class="copyright"><p>C 2016 Smart Shop. All Rights reserved | Design by W3layouts</p></div>
+      </div>
+      </footer>
+    </div>
+
+    <template id="product-template">
+      <div class="product" data-product>
+          <p class="product__detail" data-detail></p>
+          <img class="product__image" data-image src="" width="200px" height="240">
+          <div class="product-details-container">
+             <h2 class="product__name" data-name></h2>
+             <p class="product__price" data-price></p>
+             <p id="product__old-price" data-oldPrice></p>
+             <button class="product__btn-add-to-cart">Add to cart</button>
+             <span id='specialOffer' class="hidden" data-specialOffer></span>
+             <h3 id='partOfCollection' class="hidden" data-partOfCollection></h3>
+             <input type="hidden" data-params>
+             <button class='view-product-btn' data-navigates>Details</button>
+        </div>
+      </div>
+  </template>
+  
+</body>
+</html>

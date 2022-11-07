@@ -1,0 +1,407 @@
+{
+  "highlights": [
+    {
+      "productName": "Multicoloured Tshirts",
+      "newPrice": "119.99",
+      "oldPrice": "120.71",
+      "topRightDetail": "1+1 offer",
+      "productImage": "../resources/images/a1.png",
+      "specialOffer": "true",
+      "partOfCollection": "false",
+      "id": 5
+    },
+    {
+      "productName": "Dresses",
+      "newPrice": "129.99",
+      "oldPrice": "150.71",
+      "topRightDetail": "new",
+      "productImage": "../resources/images/a3.png",
+      "specialOffer": "true",
+      "partOfCollection": "false",
+      "id": 7
+    },
+    {
+      "productName": "Shirts",
+      "newPrice": "45.99",
+      "oldPrice": "69.71",
+      "topRightDetail": "1+1 offer",
+      "productImage": "../resources/images/a7.png",
+      "specialOffer": "false",
+      "partOfCollection": "true",
+      "id": 11
+    }
+  ],
+
+  "products": [
+    {
+      "productName": "Dresses",
+      "newPrice": "45.99",
+      "oldPrice": "69.71",
+      "topRightDetail": "new",
+      "productImage": "../resources/images/g1.png",
+      "specialOffer": "false",
+      "partOfCollection": "true",
+      "id": 1
+    },
+    {
+      "productName": "Next Blue Blazer",
+      "newPrice": "99.99",
+      "oldPrice": "109.71",
+      "topRightDetail": "1+1 offer",
+      "productImage": "../resources/images/g2.png",
+      "specialOffer": "true",
+      "partOfCollection": "true",
+      "id": 2
+    },
+    {
+      "productName": "Air Tshirt Black",
+      "newPrice": "129.99",
+      "oldPrice": "150.71",
+      "topRightDetail": "combo pack",
+      "productImage": "../resources/images/g3.png",
+      "specialOffer": "false",
+      "partOfCollection": "true",
+      "id": 3
+    },
+    {
+      "productName": "Maroon Puma Tshirt",
+      "newPrice": "79.99",
+      "oldPrice": "120.71",
+      "topRightDetail": "new",
+      "productImage": "../resources/images/a1.png",
+      "specialOffer": "true",
+      "partOfCollection": "false",
+      "id": 4
+    },
+    {
+      "productName": "Multicoloured Tshirts",
+      "newPrice": "119.99",
+      "oldPrice": "120.71",
+      "topRightDetail": "1+1 offer",
+      "productImage": "../resources/images/a1.png",
+      "specialOffer": "true",
+      "partOfCollection": "false",
+      "id": 5
+    },
+    {
+      "productName": "Air Tshirt Black",
+      "newPrice": "129.99",
+      "oldPrice": "120.71",
+      "topRightDetail": "combo pack",
+      "productImage": "../resources/images/a2.png",
+      "specialOffer": "true",
+      "partOfCollection": "false",
+      "id": 6
+    },
+    {
+      "productName": "Dresses",
+      "newPrice": "129.99",
+      "oldPrice": "150.71",
+      "topRightDetail": "new",
+      "productImage": "../resources/images/a3.png",
+      "specialOffer": "true",
+      "partOfCollection": "false",
+      "id": 7
+    },
+    {
+      "productName": "Wedding Blazers",
+      "newPrice": "129.99",
+      "oldPrice": "150.71",
+      "topRightDetail": "1+1 offer",
+      "productImage": "../resources/images/a4.png",
+      "specialOffer": "false",
+      "partOfCollection": "false",
+      "id": 8
+    }
+    ,{
+      "productName": "Dresses",
+      "newPrice": "45.99",
+      "oldPrice": "69.71",
+      "topRightDetail": "combo pack",
+      "productImage": "../resources/images/a5.png",
+      "specialOffer": "true",
+      "partOfCollection": "false",
+      "id": 9
+    }
+    ,{
+      "productName": "Shirts",
+      "newPrice": "45.99",
+      "oldPrice": "69.71",
+      "topRightDetail": "new",
+      "productImage": "../resources/images/a6.png",
+      "specialOffer": "true",
+      "partOfCollection": "false",
+      "id": 10
+    }
+    ,{
+      "productName": "Shirts",
+      "newPrice": "45.99",
+      "oldPrice": "69.71",
+      "topRightDetail": "1+1 offer",
+      "productImage": "../resources/images/a7.png",
+      "specialOffer": "false",
+      "partOfCollection": "true",
+      "id": 11
+    }
+    ,{
+      "productName": "T shirts",
+      "newPrice": "45.99",
+      "oldPrice": "69.71",
+      "topRightDetail": "combo pack",
+      "productImage": "../resources/images/a8.png",
+      "specialOffer": "true",
+      "partOfCollection": "false",
+      "id": 12
+    }
+    ,{
+      "productName": "T shirts",
+      "newPrice": "45.99",
+      "oldPrice": "69.71",
+      "topRightDetail": "combo pack",
+      "productImage": "../resources/images/a8.png",
+      "specialOffer": "true",
+      "partOfCollection": "false",
+      "id": 13
+    }
+    ,{
+      "productName": "Shoes",
+      "newPrice": "45.99",
+      "oldPrice": "69.71",
+      "topRightDetail": "new",
+      "productImage": "../resources/images/mw3.png",
+      "specialOffer": "true",
+      "partOfCollection": "false",
+      "id": 14
+    }
+    ,{
+      "productName": "Shoes",
+      "newPrice": "45.99",
+      "oldPrice": "69.71",
+      "topRightDetail": "new",
+      "productImage": "../resources/images/w1.png",
+      "specialOffer": "true",
+      "partOfCollection": "false",
+      "id": 15
+    }
+    ,{
+      "productName": "Shoes",
+      "newPrice": "45.99",
+      "oldPrice": "69.71",
+      "topRightDetail": "new",
+      "productImage": "../resources/images/mw1.png",
+      "specialOffer": "true",
+      "partOfCollection": "false",
+      "id": 16
+    }
+    ,{
+      "productName": "Shoes",
+      "newPrice": "45.99",
+      "oldPrice": "69.71",
+      "topRightDetail": "new",
+      "productImage": "../resources/images/mw3.png",
+      "specialOffer": "true",
+      "partOfCollection": "false",
+      "id": 17
+    }
+    ,{
+      "productName": "Watch",
+      "newPrice": "45.99",
+      "oldPrice": "69.71",
+      "topRightDetail": "new",
+      "productImage": "../resources/images/ep1.png",
+      "specialOffer": "true",
+      "partOfCollection": "false",
+      "id": 18
+    }
+    ,{
+      "productName": "Watch",
+      "newPrice": "45.99",
+      "oldPrice": "69.71",
+      "topRightDetail": "new",
+      "productImage": "../resources/images/ep2.png",
+      "specialOffer": "true",
+      "partOfCollection": "false",
+      "id": 19
+    }
+    ,{
+      "productName": "Watch",
+      "newPrice": "45.99",
+      "oldPrice": "69.71",
+      "topRightDetail": "new",
+      "productImage": "../resources/images/ep3.png",
+      "specialOffer": "true",
+      "partOfCollection": "false",
+      "id": 20
+    }
+    ,{
+      "productName": "Shoes",
+      "newPrice": "45.99",
+      "oldPrice": "69.71",
+      "topRightDetail": "new",
+      "productImage": "../resources/images/ep4.png",
+      "specialOffer": "true",
+      "partOfCollection": "false",
+      "id": 21
+    }
+    ,{
+      "productName": "Shoes",
+      "newPrice": "45.99",
+      "oldPrice": "69.71",
+      "topRightDetail": "new",
+      "productImage": "../resources/images/w2.png",
+      "specialOffer": "true",
+      "partOfCollection": "false",
+      "id": 22
+    }
+    ,{
+      "productName": "Wedding Blazers",
+      "newPrice": "129.99",
+      "oldPrice": "150.71",
+      "topRightDetail": "1+1 offer",
+      "productImage": "../resources/images/a4.png",
+      "specialOffer": "false",
+      "partOfCollection": "false",
+      "id": 23
+    }
+    ,{
+      "productName": "Dresses",
+      "newPrice": "45.99",
+      "oldPrice": "69.71",
+      "topRightDetail": "combo pack",
+      "productImage": "../resources/images/a5.png",
+      "specialOffer": "true",
+      "partOfCollection": "false",
+      "id": 24
+    }
+    ,{
+      "productName": "Shirts",
+      "newPrice": "45.99",
+      "oldPrice": "69.71",
+      "topRightDetail": "new",
+      "productImage": "../resources/images/a6.png",
+      "specialOffer": "true",
+      "partOfCollection": "false",
+      "id": 25
+    }
+    ,{
+      "productName": "Shirts",
+      "newPrice": "45.99",
+      "oldPrice": "69.71",
+      "topRightDetail": "1+1 offer",
+      "productImage": "../resources/images/a7.png",
+      "specialOffer": "false",
+      "partOfCollection": "true",
+      "id": 26
+    }
+    ,{
+      "productName": "T shirts",
+      "newPrice": "45.99",
+      "oldPrice": "69.71",
+      "topRightDetail": "combo pack",
+      "productImage": "../resources/images/a8.png",
+      "specialOffer": "true",
+      "partOfCollection": "false",
+      "id": 27
+    }
+    ,{
+      "productName": "T shirts",
+      "newPrice": "45.99",
+      "oldPrice": "69.71",
+      "topRightDetail": "combo pack",
+      "productImage": "../resources/images/a8.png",
+      "specialOffer": "true",
+      "partOfCollection": "false",
+      "id": 28
+    }
+    ,{
+      "productName": "Shoes",
+      "newPrice": "45.99",
+      "oldPrice": "69.71",
+      "topRightDetail": "new",
+      "productImage": "../resources/images/mw3.png",
+      "specialOffer": "true",
+      "partOfCollection": "false",
+      "id": 29
+    }
+    ,{
+      "productName": "Shoes",
+      "newPrice": "45.99",
+      "oldPrice": "69.71",
+      "topRightDetail": "new",
+      "productImage": "../resources/images/w1.png",
+      "specialOffer": "true",
+      "partOfCollection": "false",
+      "id": 30
+    }
+    ,{
+      "productName": "Shoes",
+      "newPrice": "45.99",
+      "oldPrice": "69.71",
+      "topRightDetail": "new",
+      "productImage": "../resources/images/mw1.png",
+      "specialOffer": "true",
+      "partOfCollection": "false",
+      "id": 31
+    }
+    ,{
+      "productName": "Shoes",
+      "newPrice": "45.99",
+      "oldPrice": "69.71",
+      "topRightDetail": "new",
+      "productImage": "../resources/images/mw3.png",
+      "specialOffer": "true",
+      "partOfCollection": "false",
+      "id": 32
+    }
+    ,{
+      "productName": "Watch",
+      "newPrice": "45.99",
+      "oldPrice": "69.71",
+      "topRightDetail": "new",
+      "productImage": "../resources/images/ep1.png",
+      "specialOffer": "true",
+      "partOfCollection": "false",
+      "id": 33
+    }
+    ,{
+      "productName": "Watch",
+      "newPrice": "45.99",
+      "oldPrice": "69.71",
+      "topRightDetail": "new",
+      "productImage": "../resources/images/ep2.png",
+      "specialOffer": "true",
+      "partOfCollection": "false",
+      "id": 34
+    }
+    ,{
+      "productName": "Watch",
+      "newPrice": "45.99",
+      "oldPrice": "69.71",
+      "topRightDetail": "new",
+      "productImage": "../resources/images/ep3.png",
+      "specialOffer": "true",
+      "partOfCollection": "false",
+      "id": 35
+    }
+    ,{
+      "productName": "Shoes",
+      "newPrice": "45.99",
+      "oldPrice": "69.71",
+      "topRightDetail": "new",
+      "productImage": "../resources/images/ep4.png",
+      "specialOffer": "true",
+      "partOfCollection": "false",
+      "id": 36
+    }
+    ,{
+      "productName": "Shoes",
+      "newPrice": "45.99",
+      "oldPrice": "69.71",
+      "topRightDetail": "new",
+      "productImage": "../resources/images/w2.png",
+      "specialOffer": "true",
+      "partOfCollection": "false",
+      "id": 37
+    }
+  ]
+}
